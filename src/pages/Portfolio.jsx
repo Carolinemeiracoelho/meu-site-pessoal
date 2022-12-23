@@ -1,5 +1,11 @@
+import { Header } from '../components/Header'
+import portfolioImg from '../assets/portfolio.png'
+
 export function Portfolio () {
     return(
-        <h1>Inicio na página Portfólio</h1>
+        <>
+            <Header title="Meu Portfolio" image={portfolioImg} />
+
+        </>
     )
 }
